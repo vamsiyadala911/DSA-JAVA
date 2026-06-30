@@ -157,20 +157,35 @@ public class Patterns {
     public static void main(String[] args) {
         Patterns a=new Patterns();
         a.pattern1(5);
+        System.out.println();
         a.pattern2(5);
+        System.out.println();
         a.pattern3(5);
+        System.out.println();
         a.pattern4(5);
+        System.out.println();
         a.pattern5(5);
+        System.out.println();
         a.pattern6(5);
+        System.out.println();
         a.pattern7(5);
+        System.out.println();
         a.pattern8(5);
+        System.out.println();
         a.pattern9(5);
+        System.out.println();
         a.pattern10(5);
+        System.out.println();
         a.pattern11(5);
+        System.out.println();
         a.pattern12(5);
+        System.out.println();
         a.pattern32(5);
+        System.out.println();
         a.pattern26(5);
+        System.out.println();
         a.pattern28(5);
+        System.out.println();
         a.pattern29(5);
 
     }
