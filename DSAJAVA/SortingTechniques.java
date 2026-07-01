@@ -29,6 +29,19 @@ public class SortingTechniques {
             System.out.print(arr[i]+" ");
         }
     }
+    public void insertionSort(int arr[]){
+        for(int i=0;i<arr.length;i++) {
+            int j = i;
+            while (j > 0 && arr[j - 1] > arr[j]) {
+                int temp = arr[j - 1];
+                arr[j - 1] = arr[j];
+                arr[j] = temp;
+            }
+        }
+        for(int i=0;i<arr.length;i++){
+            System.out.print(arr[i]+" ");
+        }
+    }
 
     public static void main(String[] args) {
         //Program Starts from here
@@ -37,6 +50,8 @@ public class SortingTechniques {
         s.bubbleSort(arr);
         System.out.println(" ");
         s.selectionSort(arr);
+        System.out.println(" ");
+        s.insertionSort(arr);
 
     }
 }
